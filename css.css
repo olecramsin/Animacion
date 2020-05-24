@@ -21,7 +21,7 @@ body{
 
  .imagen-svg path{
     
-    stroke:black;
+    stroke:white;
 
     stroke-width: 1;
     stroke-dashoffset: 0; 
@@ -77,6 +77,9 @@ body{
 
 @keyframes foresight { to { stroke-dashoffset: 0; } } 
 
+.imagen-svg:hover{
+    fill: white;
+}
 /* 
 .blinks path { 
     -webkit-animation: none; 
@@ -86,25 +89,25 @@ body{
 
 
 
-.imagen-svg  path:nth-child(1) { stroke-dashoffset: 0; 
+.imagen-svg.blinks path:nth-child(1) { stroke-dashoffset: 0; 
     -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.07s;
      animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.07s;}
 
-.imagen-svg  path:nth-child(2) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;}
+.imagen-svg.blinks  path:nth-child(2) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;}
 
-.imagen-svg  path:nth-child(3) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; }
+.imagen-svg.blinks path:nth-child(3) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; }
 
-.imagen-svg  path:nth-child(4) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; }
+.imagen-svg.blinks path:nth-child(4) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; }
 
-.imagen-svg  path:nth-child(5) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; }
+.imagen-svg.blinks path:nth-child(5) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; }
 
-.imagen-svg  path:nth-child(6) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; }
+.imagen-svg.blinks path:nth-child(6) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; }
 
-.imagen-svg  path:nth-child(7) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; }
+.imagen-svg.blinks  path:nth-child(7) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; }
 
-.imagen-svg  path:nth-child(8) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; }
+.imagen-svg.blinks path:nth-child(8) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; }
 
-.imagen-svg  path:nth-child(9) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; } 
+.imagen-svg.blinks path:nth-child(9) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; } 
 
 
 @keyframes foresight-fill { 
@@ -114,6 +117,6 @@ body{
   20% { fill: rgba(255, 255, 255, 0); }
   100% { fill: rgba(255, 255, 255, 0); } 
 
-}
+} 
 
   /* .imagen-svg path { -webkit-animation: none; animation: none; stroke-dashoffset: 0; }   */
