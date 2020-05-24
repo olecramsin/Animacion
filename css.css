@@ -1,0 +1,119 @@
+body{
+    background-color: gray;
+ 
+}
+
+.imagen-svg{
+    fill:white;
+    position: absolute;
+    left: 40%; 
+    bottom: 50%; 
+    fill: transparent;
+
+    transform-origin: bottom left;
+   
+    opacity: 1; 
+    cursor: pointer;
+    z-index: 1; 
+}
+
+
+
+ .imagen-svg path{
+    
+    stroke:black;
+
+    stroke-width: 1;
+    stroke-dashoffset: 0; 
+    /* -webkit-animation: foresight 2.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; */
+    animation: foresight 2.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; 
+}
+
+.imagen-svg path:first-child { 
+    stroke-dasharray: 311; 
+    stroke-dashoffset: 311; 
+}
+
+@keyframes foresight {
+     to { 
+         stroke-dashoffset: 0; 
+        } 
+}
+
+.imagen-svg path:nth-child(2) {
+     stroke-dasharray: 412;
+      stroke-dashoffset: 412; 
+    }
+
+@keyframes foresight { 
+    to { stroke-dashoffset: 0; }
+ }
+
+.imagen-svg path:nth-child(3) { stroke-dasharray: 440; stroke-dashoffset: 440; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:nth-child(4) { stroke-dasharray: 368; stroke-dashoffset: 368; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:nth-child(5) { stroke-dasharray: 377; stroke-dashoffset: 377; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:nth-child(6) { stroke-dasharray: 222; stroke-dashoffset: 222; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:nth-child(7) { stroke-dasharray: 433; stroke-dashoffset: 433; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:nth-child(8) { stroke-dasharray: 452; stroke-dashoffset: 452; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } }
+
+.imagen-svg path:last-child { stroke-dasharray: 286; stroke-dashoffset: 286; }
+
+@keyframes foresight { to { stroke-dashoffset: 0; } } 
+
+/* 
+.blinks path { 
+    -webkit-animation: none; 
+    animation: none; 
+    opacity: 1; 
+} */
+
+
+
+.imagen-svg  path:nth-child(1) { stroke-dashoffset: 0; 
+    -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.07s;
+     animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.07s;}
+
+.imagen-svg  path:nth-child(2) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.14s;}
+
+.imagen-svg  path:nth-child(3) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.21s; }
+
+.imagen-svg  path:nth-child(4) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.28s; }
+
+.imagen-svg  path:nth-child(5) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.35s; }
+
+.imagen-svg  path:nth-child(6) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.42s; }
+
+.imagen-svg  path:nth-child(7) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.49s; }
+
+.imagen-svg  path:nth-child(8) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.56s; }
+
+.imagen-svg  path:nth-child(9) { stroke-dashoffset: 0; -webkit-animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; animation: foresight-fill 4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite 0.63s; } 
+
+
+@keyframes foresight-fill { 
+
+  0% { fill: rgba(255, 255, 255, 0); }
+  10% { fill: white; }
+  20% { fill: rgba(255, 255, 255, 0); }
+  100% { fill: rgba(255, 255, 255, 0); } 
+
+}
+
+  /* .imagen-svg path { -webkit-animation: none; animation: none; stroke-dashoffset: 0; }   */
